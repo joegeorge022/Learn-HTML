@@ -1,0 +1,109 @@
+<!-- 12. FORMS -->
+<!--"form" tag is used to create a form in html-->
+<!--This html file contains too much notes but it might help in better understanding.-->
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>Forms</title>
+</head>
+
+<body>
+
+  <form>
+
+    <div>
+      <label for="fname">First name:</label>
+      <input type="text" id="fname" placeholder="Christian" required>
+      <!--"label tag" is used to show the user what their input should be.-->
+      <!--"for" attribute is used to show what the label is for.-->
+      <!--"input" allows user to enter data.-->
+      <!--"type" denotes the type of input to be entered.-->
+      <!--"placeholder" shows a sample input-->
+    </div>
+
+    <!--Adding a line break inbetween form inputs makes it look neat-->
+    <br>
+
+    <div>
+      <label for="fname">Last name:</label>
+      <input type="text" id="lname" placeholder="Dior" required>
+    </div>
+
+    <br>
+
+    <div>
+      <label for="pass">Password:</label>
+      <input type="password" id="pass" name="pass" minlength="8" required>
+    </div>
+
+    <br>
+
+    <div>
+      <label for="bdate">Birthdate:</label>
+      <input type="date" id="bdate" required>
+    </div>
+
+    <br>
+
+    <div>
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" placeholder="(123)-456-7890" required>
+    </div>
+
+    <br>
+
+    <div>
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+
+    <br>
+
+    <div>
+      <input type="radio" id="Mr" name="title" value="Mr">
+      <label for="Mr">Mr.</label>
+
+      <input type="radio" id="Mrs" name="title" Mrs value="">
+      <label for="Mrs">Mrs.</label>
+
+      <input type="radio" id="PhD" name="title" value="PhD">
+      <label for="PhD">PhD.</label>
+    </div>
+
+    <br>
+
+    <div>
+      <label for="Payment">Payment</label>
+      <select id="Payment" name="Payment">
+        <option value="Visa">Visa</option>
+        <option value="MaterCard">MaterCard</option>
+        <option value="GiftCard">GiftCard</option>
+      </select>
+    </div>
+
+    <br>
+
+    <div>
+      <label for="Subscribe">Subscribe to Newsletter</label>
+      <input type="checkbox" id="Subscribe" name="Subscribe">
+    </div>
+
+    <!--clears/resets the input-->
+    <div>
+      <input type="reset">
+    </div>
+
+    <br>
+
+    <!--submits the input-->
+    <div></div>
+    <input type="submit">
+    </div>
+
+  </form>
+</body>
+
+</html>

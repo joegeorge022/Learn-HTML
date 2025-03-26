@@ -1,0 +1,41 @@
+<!-- 11. BUTTONS -->
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>My first webpage.</title>
+  </head>
+
+  <body>
+
+<!--Adding a button, giving it css styles and adding href to it has been demonstrated below-->
+<!--anything that comes after styles is a css property. -->
+    <button
+      style="
+        color: rgb(34, 255, 255);
+        background-color: rgb(121, 208, 255);
+        border-radius: 5px;
+      "
+    >
+      <a href="GTA V Cinematic Video Midnight City.mp4">
+        Click me to watch "GTA V Cinematic Video Midnight City"
+      </a>
+    </button>
+
+<!--Below is a simple javascript code demonstrating the use of a button.-->
+<!--When you click "Hello" button the hello text will change to goodbye -->      <button
+    onclick="doSomething()">Hello    
+    </button>
+
+
+<p id="test">Hello</p>
+<script>
+ function doSomething(){
+    document.getElementById("test").innerHTML = "Goodbye";
+}
+</script>
+
+    </p>
+  </body>
+</html>
